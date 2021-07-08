@@ -1,0 +1,10 @@
+<section class="architecture">
+    <div class="d-flex flex-wrap card-grid">
+        {% for modal in site.architecture_modals %}
+                <div class="img-wrapper project-card" id={{ modal.name | slugify }} data-bs-toggle="modal" data-bs-target="#{{ modal.name | slugify | append: '-modal' }}" >
+                    <img src={{ "assets/images/" | append: modal.image }} class="illustration" />
+                    <div class="image-title">{{ modal.name }}</div>
+                </div>
+        {% endfor %}
+    </div>
+</section>

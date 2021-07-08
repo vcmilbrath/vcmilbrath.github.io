@@ -1,0 +1,13 @@
+<div id={{ page.name | slugify | append: "-modal" }}  class="modal scale" tabindex="-1" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+        <div class="modal-content bg-white">
+            <div class="modal-header">
+                <h2 class="modal-title">{{ page.name }}</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

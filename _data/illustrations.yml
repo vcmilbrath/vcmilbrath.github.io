@@ -1,0 +1,6 @@
+- name: Test Illustration 1
+  image: test.png
+  column: 2
+- name: Test Illustration 2
+  image: test2.jpg
+  column: 1

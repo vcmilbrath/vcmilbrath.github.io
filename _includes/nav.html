@@ -1,0 +1,22 @@
+<div class="name" >
+    <span class="initials">
+        <img src="assets/images/icon.png" />
+    </span>
+    <h1>Valarie Milbrath</h1>
+</div>
+
+<div class="page-links">
+    <ul>
+        {% for item in site.data.navigation %} 
+        <li>
+            {% if page.url == item.link %}
+            <a href="{{ item.link }}" class="section-link active" >
+            {% else %}
+            <a href="{{ item.link }}" class="section-link" >
+            {% endif %}
+                {{ item.name }}
+            </a>
+        </li>   
+    {% endfor %}
+    </ul> 
+</div>
