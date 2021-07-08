@@ -7,7 +7,8 @@ folder: desert_bird
 ---
 I helped to design the Desert Bird Data Center while acting as the Construction Management advisor to a team of architects in a multi-disciplinary design studio.  Our goal in this project was to design a data center located in Phoenix, AZ that would meet the requirements of the Living Building Challenge, which requires a net positive contribution to the surrounding environment in its use of natural resources and in its role as a structure in the urban landscape.
 
-As the Construction Management advisor, I researched the cost-effectiveness and constructability of the design team’s options to assist them in making decisions.  I also researched sustainable building technology and materials, performed energy calculations, and helped the design team create building details for the unique rammed earth walls in the project.  Then, at the end of the quarter, I performed a full conceptual design estimate to present along with the design.
+As the Construction Management advisor, I researched the cost-effectiveness and constructability of the design team’s options to assist them in making decisions.  I also researched sustainable building technology and materials, performed energy calculations, and helped the design team create building details for the unique rammed earth walls in the project.  Then, at the end of the quarter, I performed a full conceptual design estimate to present along with the design.  
+
 
 ![page 1](assets/images/desert_bird/desert_bird01.png)
 ![page 2](assets/images/desert_bird/desert_bird02.png)
