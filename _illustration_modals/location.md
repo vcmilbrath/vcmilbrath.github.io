@@ -4,6 +4,8 @@ image: location/gould.png
 layout: modal
 ---
 
+A curated selection of urban sketches drawn on location. Shown in chronological order.  
+
 ![Gasworks Park](assets/images/location/gasworks.png){: .img30 }
 ![Forest](assets/images/location/forest.png){: .img30 }
 ![Dorm Room](assets/images/location/dorm_room.png){: .img30 }
