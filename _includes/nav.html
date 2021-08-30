@@ -11,7 +11,12 @@
 <div class="page-links">
     <ul>
         {% for item in site.data.navigation %} 
-        {% if page.url == item.link %}
+        {% assign url = item.link | append: '.html' %}
+        {% if item.link == '/'%}
+            {% assign url = item.link %}
+        {% endif %}
+        
+        {% if page.url == url %}
         <li class="active" >
             <a href="{{ item.link }}" class="section-link active" >
         {% else %}
