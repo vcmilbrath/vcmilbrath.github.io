@@ -12,7 +12,7 @@
 
 .section-link:hover { color: #8b0023; text-decoration: underline; }
 
-.section-link.active { color: #8b0023; }
+.active .section-link { color: #8b0023; }
 
 .name { text-align: right; }
 
@@ -36,13 +36,15 @@ main { margin-left: 300px; padding: 2rem; }
 
 .modal-body img { width: 100%; margin-bottom: 1rem; }
 
+@media screen and (orientation: portrait) { body { min-height: 100%; } .side-nav { height: auto; position: sticky; width: 100%; margin-top: 0; border-right: none; padding-top: 2rem; padding-bottom: 0; } main { margin-left: 0; } main .banner { display: none; } main h2 { font-size: 5rem; } main p { font-size: 2.5rem; } main .social-link { font-size: 4rem; } .name { text-align: left; display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 2rem; padding: 0 2rem; } .name h1 { display: inline-block; margin: 0; font-size: 3.5rem; } .name .initials { padding-top: 0; padding-bottom: 0; } .page-links { margin: 0; background-color: #8b0023; display: flex; justify-content: center; } .page-links ul { padding: 0; margin: 0; } .page-links ul li { display: inline-block; } .page-links .section-link { font-size: 2.25rem; color: white; padding: 0.5rem 2rem; min-width: 3rem; } .page-links .active .section-link { background-color: white; color: #8b0023; } .illustrations .img-wrapper, .architecture .img-wrapper { height: auto; width: 100%; } .illustrations .img-wrapper .illustration, .architecture .img-wrapper .illustration { height: auto; width: 100%; } .illustrations .img-wrapper .image-title, .architecture .img-wrapper .image-title { position: relative; opacity: 1; transform: none; font-size: 3rem; margin-bottom: 5rem; top: auto; left: auto; } }
+
 * { box-sizing: border-box; font-family: "Darker Grotesque", sans-serif; font-weight: 500; }
 
 body { height: 100%; }
 
 h2, h3, h4, h5, h6 { font-family: "Darker Grotesque", sans-serif; font-weight: 800; }
 
-h1 { font-size: 2.5rem; font-family: Mulish, sans-serif; font-weight: 900; text-align: right; }
+h1 { font-size: 2.5rem; font-family: Mulish, sans-serif; font-weight: 900; text-align: right; color: black; text-decoration: none; }
 
 h2 { font-size: 3rem; margin-top: 2rem; margin-bottom: .75rem; }
 

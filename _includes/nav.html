@@ -1,19 +1,23 @@
 <div class="name" >
-    <span class="initials">
-        <img src="assets/images/icon.png" />
-    </span>
-    <h1>Valarie Milbrath</h1>
+    <a href="/">
+        <span class="initials">
+            <img src="assets/images/icon.png" />
+        </span>
+    </a>
+    <h1><a href="/"></a>Valarie Milbrath</a></h1>
+    
 </div>
 
 <div class="page-links">
     <ul>
         {% for item in site.data.navigation %} 
-        <li>
-            {% if page.url == item.link %}
+        {% if page.url == item.link %}
+        <li class="active" >
             <a href="{{ item.link }}" class="section-link active" >
-            {% else %}
+        {% else %}
+        <li>
             <a href="{{ item.link }}" class="section-link" >
-            {% endif %}
+        {% endif %}
                 {{ item.name }}
             </a>
         </li>   
