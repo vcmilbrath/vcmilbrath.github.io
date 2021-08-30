@@ -4,6 +4,8 @@ image: october/18_01.png
 layout: modal
 ---
 
+A curated selection of my best work from various october art challenges. Shown in chronological order.  
+
 ## 2020
 
 ![October 05, 2020](assets/images/october/20_05.png){: .img30 }
