@@ -100,4 +100,28 @@
     .img-wrapper:first-of-type {
         border: none;
     }
+
+    .modal-dialog {
+        margin: 0.5rem;
+        min-height: auto !important;
+    }
+
+    .modal-content {
+        padding: 1rem;
+    }
+
+    .modal-body {
+        padding: 0;
+
+        img, img.img30 {
+            width: 100% !important;
+        }
+    }
+
+    h2.modal-title {
+        margin: 0;
+        font-size: calc(2rem + .6vw);
+    }
+
+
 }
